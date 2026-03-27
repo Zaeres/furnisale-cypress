@@ -41,32 +41,6 @@ Select **E2E Testing**, pick a browser, and run whichever spec files you want.
 
 ---
 
-## Folder Structure
-
-```
-cypress/
-├── e2e/
-│   ├── screen2_login.cy.js
-│   ├── screen5_all_listings.cy.js
-│   ├── screen6_my_ads.cy.js
-│   ├── screen7_post_ad.cy.js
-│   └── ads_api.cy.js
-├── fixtures/
-│   ├── credentials.json
-│   ├── test-image1.jpeg
-│   ├── test-image2.jpeg
-│   ├── test-image3.jpeg
-│   └── invalid.pdf
-└── support/
-    ├── commands.js
-    └── e2e.js
-cypress.config.js
-package.json
-README.md
-```
-
----
-
 ## Custom Commands
 
 | Command | Description |
